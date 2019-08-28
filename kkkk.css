@@ -1,0 +1,65 @@
+body,html{
+	margin:10;
+	padding:10;
+	width:25%;
+	height:25%;
+}
+
+body{
+	background:url(download.jpg);
+	background-size:cover;
+	font-family:times new roman, sans-serigf;
+}
+
+.container{
+	width:100%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:white;
+}
+
+.container h1{
+	text-transform:uppercase;
+	font-size:60px;
+	margin:20px;
+	letter-spacing:15px;
+}
+.container h2{
+	text-transform:uppercase;
+	font-size:40px;
+	margin:15px;
+	letter-spacing:15px;
+}
+.container h3{
+	text-transform:uppercase;
+	font-size:30px;
+	margin:10px;
+	letter-spacing:10px;
+}
+
+.count{
+	margin:40px 0;
+
+}
+
+.countd{
+	display:inline-block;
+	width:70px;
+	height:90px;
+	border:4px solid;
+	margin:0 30px;
+	font-size:12px;
+	border-radius:50%;
+	overflow:hidden;
+	
+}
+
+.countd span{
+	display:circle;
+	font-size:40px;
+	margin-top:12px;
+	
+}
